@@ -1,0 +1,22 @@
+<div class="row">
+  {{#each result}}
+  <div class="col-sm-6 mb-2">
+    <div class="card">
+      <div class="card-body">
+        <h5 class="card-title">{{nome}} {{sobrenome}} </h5>
+        <p class="card-text">{{txtPost}}</p>
+
+        <a href="/" class="btn btn-primary mb-2">Home</a>
+
+        <a href="/del/{{id}}" class="btn btn-danger mb-2">Deletar</a>
+
+
+        <a href="/2" class="btn btn-warning mb-2">Modificar</a>
+        
+        
+      </div>
+    </div>
+  </div>
+   {{/each}}
+</div>
+
